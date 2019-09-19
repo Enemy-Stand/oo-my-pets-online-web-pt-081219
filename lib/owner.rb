@@ -13,6 +13,9 @@ class Owner
     "I am a #{self.species}."
   end
   
+  def self.all
+    
+  
   def buy_cat(name)
     
 end
