@@ -13,6 +13,6 @@ class Owner
     "I am a #{self.species}."
   end
   
-  def buy_cat(name)
+  #def buy_cat(name)
     
 end
