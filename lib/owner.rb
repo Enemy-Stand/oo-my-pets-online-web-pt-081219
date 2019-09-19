@@ -26,7 +26,7 @@ class Owner
   end
   
   def cats
-    
+    Cat.each {|cat
   end
   
   def buy_cat(name)
