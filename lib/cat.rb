@@ -1,5 +1,4 @@
 class Cat
-  def initialize(name)
-    @name = name
-  end
+  attr_accessor :mood, :owner
+  attr_reader :name
 end
