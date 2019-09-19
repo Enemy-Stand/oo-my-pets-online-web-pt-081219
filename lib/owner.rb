@@ -26,7 +26,7 @@ class Owner
   end
   
   def cats
-    Cat.each {|cat| cat.select == owner}
+    Cat.all.select {|cat| cat.select == owner}
   end
   
   def buy_cat(name)
