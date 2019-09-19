@@ -57,4 +57,9 @@ class Owner
       pet.owner = NIL
     end
   end
+  
+  def list_pets
+    pets = self.dogs + self.cats
+    pets
+  end
 end
