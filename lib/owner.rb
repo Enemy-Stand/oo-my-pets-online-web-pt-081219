@@ -17,6 +17,10 @@ class Owner
     @@all
   end
   
+  def cats
+    return Cats.map
+  end
+  
   def buy_cat(name)
     cat.new(name, self)
   end
