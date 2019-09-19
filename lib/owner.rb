@@ -21,6 +21,10 @@ class Owner
     self.all.count
   end
   
+  def self.reset
+    self.all.reset
+  end
+  
   def cats
     Cats.map
   end
