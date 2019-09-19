@@ -59,7 +59,6 @@ class Owner
   end
   
   def list_pets
-    pets = self.dogs + self.cats
-    pets
+    "I have #d
   end
 end
