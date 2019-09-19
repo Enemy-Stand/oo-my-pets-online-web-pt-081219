@@ -14,8 +14,9 @@ class Owner
   end
   
   def self.all
-    
+    @@all
+  end
   
   def buy_cat(name)
-    
+    cat.new
 end
