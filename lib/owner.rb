@@ -26,7 +26,7 @@ class Owner
   end
   
   def cats
-    Cats.map
+    @@all.cats
   end
   
   def buy_cat(name)
